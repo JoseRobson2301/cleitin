@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>MANUTENÇÃO</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+		<style>
+			* {box-sizing: border-box;}
+
+			body {font-family: Arial, Helvetica, sans-serif;}
+
+			.header,.main,.footer{max-width:1200px;margin:auto}
+
+			.header {background-color: #f1f1f1;padding: 30px;text-align: center;font-size: 35px;}
+
+			.footer {background-color: #f1f1f1;padding: 10px;text-align: center;}
+
+			table{width:100% }
+
+			table, th, td, caption{
+				border:1px solid #c0c0c0;
+				border-collapse:collapse;padding:5px
+			}
+
+			table caption{
+				background-color:#d9d9d9;
+				font-weight:bold
+			}
+
+			tbody tr:nth-child(odd) {
+				background-color: #f2f2f2;
+			}
+
+			td:nth-child(3),tfoot td:nth-child(2) {
+				text-align:right;
+				font-weight:bold
+			}
+
+			td:nth-child(3){
+				width:30%
+			}
+
+			@media (max-width: 600px) { table caption{display:none; }}
+		</style>
+	</head>
+	<body>
+
+		<header class="header">
+			<h1>MANUTENÇÃO DE PEÇAS</h1>
+		</header>
+
+		<main class="main">
+
+			<table>
+				<caption>COBRANÇA PELAS PEÇAS</caption>
+				<colgroup>
+					<col span="2">
+					<col span="1" style="background-color:#f2f2f2">
+				</colgroup>
+				<thead>
+					<tr>
+						<th colspan="2">PEÇAS</th>
+						<th>PREÇO</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>MEMÓRIA RAM</td>
+						<td>NOVA PEÇA</td>
+						<td>R$ 500,00</td>
+					</tr>
+					<tr>
+						<td>PLACA DE VIDEO</td>
+						<td>NOVA PEÇA</td>
+						<td>R$ 450,00</td>
+					</tr>
+					<tr>
+						<td>Maria</td>
+						<td>Ferreira</td>
+						<td>R$ 2.500,00</td>
+					</tr>
+					<tr>
+						<td>Ana</td>
+						<td>Pereira</td>
+						<td>R$ 1.500,00</td>
+					</tr>
+					<tr>
+						<td>Manoel</td>
+						<td>Matos</td>
+						<td>R$ 6.000,00</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td>Total</td>
+						<td>R$ 18.500,00</td>
+					</tr>
+				</tfoot>
+			</table>
+
+
+		</main>
+
+		<footer class="footer">
+			<p>Rodapé</p>
+		</footer>
+
+	</body>
+</html>
